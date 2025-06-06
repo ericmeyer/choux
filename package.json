@@ -4,7 +4,8 @@
   "description": "Make network requests against a JSON API",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint .",
+    "lint:ci": "npx eslint .",
+    "lint": "npx eslint . --fix",
     "test:ci": "jest --ci",
     "test:watch": "jest --watch",
     "test": "jest"
