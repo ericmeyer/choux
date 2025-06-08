@@ -4,6 +4,16 @@ orbs:
   node: circleci/node@7.1.0
 
 jobs:
+  check_build:
+    docker:
+      - image: cimg/node:22.16.0
+    steps:
+      - attach_workspace:
+            at: .
+      - run:
+          name: Run build script
+          command: npm run build:ci
+
   lint:
     docker:
       - image: cimg/node:22.16.0
@@ -48,10 +58,13 @@ jobs:
 workflows:
   build_and_test:
     jobs:
-      - setup
+      - check_build:
+          requires:
+              - setup
       - lint:
           requires:
               - setup
+      - setup
       - tests:
           requires:
               - setup
