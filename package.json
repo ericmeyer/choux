@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericmeyer/choux.git"
+    "url": "git+https://github.com/ericmeyer/brulee.git"
   },
   "author": "Eric Meyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ericmeyer/choux/issues"
+    "url": "https://github.com/ericmeyer/brulee/issues"
   },
-  "homepage": "https://github.com/ericmeyer/choux#readme",
+  "homepage": "https://github.com/ericmeyer/brulee#readme",
   "devDependencies": {
     "@eslint/js": "^9.28.0",
     "@types/jest": "^29.5.14",
