@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ericmeyer/choux/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ericmeyer/choux/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ericmeyer/brulee/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ericmeyer/brulee/tree/main)
 
 # Brulee
 
