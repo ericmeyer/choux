@@ -4,21 +4,44 @@ orbs:
   node: circleci/node@7.1.0
 
 jobs:
-  verify:
+  lint:
     docker:
       - image: cimg/node:22.16.0
-
     steps:
-      - checkout
-      - node/install-packages
-      - run:
-          name: Run Test Suite
-          command: npm run test:ci
+      - attach_workspace:
+            at: .
       - run:
           name: Run ESLint
           command: npm run lint:ci
 
+  setup:
+    docker:
+      - image: cimg/node:22.16.0
+    steps:
+      - checkout
+      - node/install-packages
+      - persist_to_workspace:
+          root: .
+          paths:
+            - '*'
+
+  tests:
+    docker:
+      - image: cimg/node:22.16.0
+    steps:
+      - attach_workspace:
+            at: .
+      - run:
+          name: Run Test Suite
+          command: npm run test:ci
+
 workflows:
   build_and_test:
     jobs:
-      - verify
+      - setup
+      - lint:
+          requires:
+              - setup
+      - tests:
+          requires:
+              - setup
