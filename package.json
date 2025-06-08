@@ -8,7 +8,8 @@
     "lint": "npx eslint . --fix",
     "test:ci": "jest --ci",
     "test:watch": "jest --watch",
-    "test": "jest"
+    "test": "jest",
+    "verify": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
