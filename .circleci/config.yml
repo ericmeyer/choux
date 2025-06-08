@@ -35,6 +35,16 @@ jobs:
           name: Run Test Suite
           command: npm run test:ci
 
+  tsc:
+    docker:
+      - image: cimg/node:22.16.0
+    steps:
+      - attach_workspace:
+            at: .
+      - run:
+          name: Run TypeScript Compiler
+          command: npm run tsc
+
 workflows:
   build_and_test:
     jobs:
@@ -43,5 +53,8 @@ workflows:
           requires:
               - setup
       - tests:
+          requires:
+              - setup
+      - tsc:
           requires:
               - setup
