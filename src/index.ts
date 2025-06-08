@@ -1,3 +1,3 @@
-import { sum } from "choux/src/sum";
+import { sum } from "brulee/src/sum";
 
 export { sum }
