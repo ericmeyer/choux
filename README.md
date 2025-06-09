@@ -4,3 +4,37 @@
 # Brulee
 
 Crème brûlée is a delightful custard with a burnt sugar topping.
+
+## Usage
+
+### NPM
+
+```bash
+npm install brulee --save
+```
+
+### Yarn
+
+```bash
+yarn add brulee
+```
+
+## Development
+
+1. Clone repo:
+
+    ```bash
+    git clone git@github.com:ericmeyer/brulee.git
+    ```
+
+2. Install packages:
+
+    ```bash
+    npm install
+    ```
+
+3. Run checks:
+
+    ```bash
+    npm run verify
+    ```
