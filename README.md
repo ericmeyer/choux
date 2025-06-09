@@ -38,3 +38,21 @@ yarn add brulee
     ```bash
     npm run verify
     ```
+
+## Releasing a New Version
+
+1. Commit all code changes.
+2. Update the version number in `package.json`.
+3. Update the changelog.
+4. Build:
+
+    ```bash
+    npm run build
+    ```
+
+5. Commit dist files and merge to main.
+6. Publish package:
+
+    ```bash
+    npm publish
+    ```
