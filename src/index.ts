@@ -1,3 +1,3 @@
-import { sum } from "choux/src/sum";
+import { get } from "choux/src/get";
 
-export { sum };
+export { get };
