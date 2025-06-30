@@ -1,6 +1,6 @@
 {
-  "name": "brulee",
-  "version": "0.1.1",
+  "name": "choux",
+  "version": "0.2.0",
   "description": "Make network requests against a JSON API",
   "main": "dist/index.js",
   "scripts": {
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericmeyer/brulee.git"
+    "url": "git+https://github.com/ericmeyer/choux.git"
   },
   "author": "Eric Meyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ericmeyer/brulee/issues"
+    "url": "https://github.com/ericmeyer/choux/issues"
   },
-  "homepage": "https://github.com/ericmeyer/brulee#readme",
+  "homepage": "https://github.com/ericmeyer/choux#readme",
   "devDependencies": {
     "@eslint/js": "^9.28.0",
     "@stylistic/eslint-plugin": "^4.4.1",
@@ -35,5 +35,8 @@
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
   }
 }
