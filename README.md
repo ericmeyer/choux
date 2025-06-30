@@ -1,22 +1,22 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ericmeyer/brulee/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ericmeyer/brulee/tree/main)
 ![NPM Version](https://img.shields.io/npm/v/brulee?color=green)
 
-# Brulee
+# Choux
 
-Crème brûlée is a delightful custard with a burnt sugar topping.
+Pâte à choux is a delightful pastry which embodies the spirit of wrapping HTTP requests.
 
 ## Usage
 
 ### NPM
 
 ```bash
-npm install brulee --save
+npm install choux --save
 ```
 
 ### Yarn
 
 ```bash
-yarn add brulee
+yarn add choux
 ```
 
 ## Development
@@ -24,7 +24,7 @@ yarn add brulee
 1. Clone repo:
 
     ```bash
-    git clone git@github.com:ericmeyer/brulee.git
+    git clone git@github.com:ericmeyer/choux.git
     ```
 
 2. Install packages:
