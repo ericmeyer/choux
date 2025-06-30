@@ -43,15 +43,14 @@ yarn add choux
 
 1. Commit all code changes.
 2. Update the version number in `package.json`.
-3. Update the changelog.
-4. Build:
+3. Build:
 
     ```bash
     npm run build
     ```
 
-5. Commit dist files and merge to main.
-6. Publish package:
+4. Commit all changes including dist files and merge to main.
+5. Publish package:
 
     ```bash
     npm publish
