@@ -1,5 +1,5 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ericmeyer/brulee/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ericmeyer/brulee/tree/main)
-![NPM Version](https://img.shields.io/npm/v/brulee?color=green)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ericmeyer/choux/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ericmeyer/choux/tree/main)
+![NPM Version](https://img.shields.io/npm/v/choux?color=green)
 
 # Choux
 
