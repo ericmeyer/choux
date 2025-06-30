@@ -1,8 +1,17 @@
-// src/sum.ts
-function sum(a, b) {
-  return a + b;
+// src/get.ts
+import axios from "axios";
+function get(options) {
+  const { bearerToken, queryParams, url } = options;
+  const headers = {};
+  if (bearerToken) {
+    headers["Authorization"] = `Bearer ${bearerToken}`;
+  }
+  axios.get(url, {
+    headers,
+    params: queryParams
+  });
 }
 export {
-  sum
+  get
 };
 //# sourceMappingURL=index.mjs.map
